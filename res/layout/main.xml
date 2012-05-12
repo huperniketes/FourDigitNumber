@@ -3,13 +3,15 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:orientation="vertical" >
-
-    <com.mapquest.android.maps.MapView
-        android:id="@+id/mapView"
-        android:layout_width="fill_parent"
-        android:layout_height="400dp"
-        android:apiKey="Fmjtd%7Cluua2duanu%2Cbg%3Do5-hrtlh"
-        android:clickable="true"
-        android:state_enabled="true" />
+
+    <WebView
+        android:id="@+id/webView1"
+        android:layout_width="match_parent"
+        android:layout_height="150dp" />
+
+    <ListView
+        android:id="@+id/Options"
+        android:layout_width="match_parent"
+        android:layout_height="263dp" />
 
 </LinearLayout>
